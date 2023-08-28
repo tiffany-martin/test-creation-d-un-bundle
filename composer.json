@@ -3,6 +3,12 @@
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./bundle/TWD/HelloWorldBundle"
+        }
+    ],
     "require": {
         "php": ">=8.1",
         "ext-ctype": "*",
@@ -38,6 +44,7 @@
         "symfony/validator": "6.3.*",
         "symfony/web-link": "6.3.*",
         "symfony/yaml": "6.3.*",
+        "twd/hello-world-bundle": "^0.1.0",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
     },

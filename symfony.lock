@@ -255,6 +255,9 @@
             "./config/packages/messenger.yaml"
         ]
     },
+    "twd/hello-world-bundle": {
+        "version": "0.1.0"
+    },
     "twig/extra-bundle": {
         "version": "v3.7.0"
     }

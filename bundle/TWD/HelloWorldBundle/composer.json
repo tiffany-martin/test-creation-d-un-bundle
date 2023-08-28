@@ -1,0 +1,26 @@
+{
+  "name": "twd/hello-world-bundle",
+  "version": "0.1.0",
+  "type": "synfony-bundle",
+  "description": "This bundle renders a template with the 'Hello world!' message.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TWD\\HelloWorldBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TWD\\HelloWorldBundle\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tanya WebDev",
+      "email": "my@mail.com"
+    }
+  ]
+}
